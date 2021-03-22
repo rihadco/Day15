@@ -1,6 +1,6 @@
 const arena = () => {
     "use strict";
-    return new Date();
+    return Date();
 };
 console.log(arena());
 module.exports = arena;
